@@ -1,0 +1,86 @@
+    *{
+    padding: 0; 
+    margin: 0;
+}
+    body{
+        background-color: rgb(200, 196, 192);
+
+    }
+    nav{
+        background-color: rgba(0, 0, 0, 0.833);
+        color: white;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .links a{
+        margin: 15px;
+        color: white;
+        text-decoration: none;
+        background-color:rgba(0, 0, 0, 0.507);
+        padding: 9px 5px;;
+        border-radius: 5px;
+        border: 1px solid white;
+        ;
+    }
+    nav h1{
+        margin-left: 20px;
+    }
+    h1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .links a:hover{
+            background-color: white;
+            color: black;
+    }
+
+
+
+
+/* Student Login css */
+
+
+.loginheader{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 50px;;
+}
+
+.login-container{
+       background-color: lightslategray;
+       display: flex;
+       flex-direction: column;
+       height: 200px;
+       padding: 100px 40px;
+       margin: 20px  400px;
+       border-radius: 10px;
+       justify-content: space-evenly;
+       font-size: 20px;
+       
+}
+.student-login-btn{
+    background-color: black;
+    color: white;
+    padding : 5px 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.input-style{
+        padding: 10px 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 4px;
+
+}
+
+
+
+
+
+
+
